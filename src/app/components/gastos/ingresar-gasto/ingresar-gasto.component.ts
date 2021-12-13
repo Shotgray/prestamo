@@ -33,7 +33,7 @@ export class IngresarGastoComponent implements OnInit {
 
     if(this.nombreGasto === '' || this.cantidad <= 0){
       this.formularioIncorrecto = true;
-      this.textIncorrecto = 'Nombre gasto o cantidad incorrecta';
+      this.textIncorrecto = 'Nombre gasto o precio incorrecta';
     } else {
 
       // Creamos el objeto
